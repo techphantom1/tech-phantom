@@ -19,6 +19,9 @@ const Homepage = ()=>{
                   }
             ]
       }
+      const footerProps = {
+            foot : "Prop is foot"
+      }
       return(
             <>
             <div className='navbar'>
@@ -26,6 +29,9 @@ const Homepage = ()=>{
             </div>
             <div className='home'>
                   <Home homeProps={homeProps}/>
+            </div>
+            <div className='footer'>
+                  <Footer footerProps = {footerProps}/>
             </div>
             </>
       )
