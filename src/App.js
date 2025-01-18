@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Homepage from '../src/components/Home/Homepage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Tech Phantom is building...</h1>
-      </header>
+    <div>
+       <Homepage />
     </div>
   );
 }
